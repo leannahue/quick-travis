@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React, { useState, useEffect } from "react";
 import "rbx/index.css";
 import { makeStyles } from '@material-ui/core/styles';

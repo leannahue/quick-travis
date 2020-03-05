@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React, { useState, useEffect } from "react";
 import { Container, Dialog, DialogTitle, Button } from "@material-ui/core";
 import TopAppBar from "./components/TopAppBar";
