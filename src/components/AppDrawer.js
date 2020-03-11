@@ -30,7 +30,7 @@ const AppDrawer = props => {
 			onClick={() => { setOpen(false) }}
 			onKeyDown={() => { setOpen(false) }}
 		>
-			<List>
+			<List data-cy={"SideList"}>
 				<ListItem button onClick={() => { props.setPage("product") }}>
 					<ListItemIcon><ViewListIcon /></ListItemIcon>
 					<ListItemText primary={"Your Items"} />
@@ -48,7 +48,7 @@ const AppDrawer = props => {
 	return (
 		<div>
 			<IconButton onClick={() => { setOpen(true) }} edge="start" color="inherit" aria-label="menu">
-				<MenuIcon />
+				<MenuIcon data-cy={"MenuButton"} />
 			</IconButton>
 
 			<SwipeableDrawer
