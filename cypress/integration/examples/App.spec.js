@@ -9,7 +9,7 @@ describe ('Test App', () => {
     cy.get('[data-cy=AppTopBar]').should('contain', 'Thrift Shift');
   });
 
-  it('shows Winter courses when Winter is selected', () => {
+  it('shows Your Item in side list when menu button clicked', () => {
     cy.visit ('/');
     cy.get('[data-cy=MenuButton]').click();
     cy.get('[data-cy=SideList]').should('contain' ,'Your Items');
